@@ -1,0 +1,491 @@
+net
+{
+    node_size = (80 40);
+    HR_realname_gene = "gene";
+    HR_realname_LYN = "LYN";
+    HR_realname_PFC = "PFC";
+    HR_realname_PRG1 = "PRG1";
+    HR_realname_MLC1SA = "MLC1SA";
+    HR_realname_CLU = "CLU";
+    HR_realname_VPREB1 = "VPREB1";
+    HR_realname_CST3 = "CST3";
+    HR_realname_CD63 = "CD63";
+    HR_realname_APLP2 = "APLP2";
+    HR_realname_AZU1 = "AZU1";
+    HR_realname_TCF3_2 = "TCF3_2";
+    HR_realname_PSMA6 = "PSMA6";
+    HR_realname_DNTT = "DNTT";
+    HR_realname_CCND3 = "CCND3";
+    HR_realname_CD33 = "CD33";
+    HR_realname_GRN = "GRN";
+    HR_realname_CTSD = "CTSD";
+    HR_realname_CD79A = "CD79A";
+    HR_realname_ZYX = "ZYX";
+    HR_realname_DF = "DF";
+    HR_realname_CSTA = "CSTA";
+    HR_realname_MGST1 = "MGST1";
+    HR_realname_RHOG = "RHOG";
+    HR_realname_SPTAN1 = "SPTAN1";
+    HR_Has_Constraints = "yes";
+    HR_Desc = "";
+    HR_OOBN_CheckConsistency = "1";
+    HR_OOBN_FitExpand = "1";
+    HR_Zoom_ZoomFactor = "100";
+    HR_Groups_GroupColors = "";
+    HR_Groups_GroupNames = "";
+    HR_Groups_UserGroupsNo = "0";
+    HR_Color_Interface = "21";
+    HR_Color_Instance = "0";
+    HR_Color_DiscreteFunction = "5";
+    HR_Color_Function = "4";
+    HR_Color_Utility = "36";
+    HR_Color_Decision = "17";
+    HR_Color_ContinuousChance = "48";
+    HR_Color_DiscreteChance = "16";
+    HR_Monitor_InitSD = "2";
+    HR_Monitor_Utility_Arrange = "0";
+    HR_Monitor_Mean_Variance = "1";
+    HR_Monitor_Chance_Utility = "1";
+    HR_Monitor_InitStates = "5";
+    HR_Monitor_OpenGraph = "0";
+    HR_Monitor_GraphPrecision = "100";
+    HR_Monitor_AutoUpdGraph = "0";
+    HR_Compile_MaxMinimalSeparators = "100000";
+    HR_Compile_ApproxEpsilon = "1.0E-5";
+    HR_Compile_Approximate = "0";
+    HR_Compile_SaveToMemory = "0";
+    HR_Compile_Compress = "0";
+    HR_Compile_TriangMethod = "0";
+    HR_Propagate_AutoNormal = "1";
+    HR_Propagate_AutoSum = "1";
+    HR_Propagate_Auto = "1";
+    HR_Font_Italic = "0";
+    HR_Font_Weight = "400";
+    HR_Font_Size = "-12";
+    HR_Font_Name = "com.apple.laf.AquaFonts$DerivedUIResourceFont[family=Lucida Grande,name=Lucida Grande,style=plain,size=13]";
+    HR_Grid_GridShow = "0";
+    HR_Grid_GridSnap = "0";
+    HR_Grid_Y = "40";
+    HR_Grid_X = "40";
+}
+
+node SPTAN1
+{
+    position = (198 378);
+    states = ("yes" "no");
+}
+
+node RHOG
+{
+    position = (358 358);
+    states = ("yes" "no");
+}
+
+node MGST1
+{
+    position = (518 378);
+    states = ("yes" "no");
+}
+
+node CSTA
+{
+    position = (678 358);
+    states = ("no" "yes");
+}
+
+node DF
+{
+    position = (838 378);
+    states = ("no" "yes");
+}
+
+node ZYX
+{
+    position = (238 298);
+    states = ("no" "yes");
+}
+
+node CD79A
+{
+    position = (398 278);
+    states = ("no" "yes");
+}
+
+node CTSD
+{
+    position = (558 298);
+    states = ("no" "yes");
+}
+
+node GRN
+{
+    position = (718 278);
+    states = ("no" "yes");
+}
+
+node CD33
+{
+    position = (878 298);
+    states = ("no" "yes");
+}
+
+node CCND3
+{
+    position = (198 218);
+    states = ("yes" "no");
+}
+
+node DNTT
+{
+    position = (358 198);
+    states = ("no" "yes");
+}
+
+node PSMA6
+{
+    position = (518 218);
+    states = ("no" "yes");
+}
+
+node TCF3_2
+{
+    position = (678 198);
+    states = ("yes" "no");
+}
+
+node AZU1
+{
+    position = (838 218);
+    states = ("no" "yes");
+}
+
+node APLP2
+{
+    position = (238 138);
+    states = ("no" "yes");
+}
+
+node CD63
+{
+    position = (398 118);
+    states = ("no" "yes");
+}
+
+node CST3
+{
+    position = (558 138);
+    states = ("no" "yes");
+}
+
+node VPREB1
+{
+    position = (718 118);
+    states = ("no" "yes");
+}
+
+node CLU
+{
+    position = (878 138);
+    states = ("no" "yes");
+}
+
+node MLC1SA
+{
+    position = (198 58);
+    states = ("yes" "no");
+}
+
+node PRG1
+{
+    position = (358 38);
+    states = ("no" "yes");
+}
+
+node PFC
+{
+    position = (518 58);
+    states = ("no" "yes");
+}
+
+node LYN
+{
+    position = (678 38);
+    states = ("no" "yes");
+}
+
+node gene
+{
+    position = (520 453);
+    states = ("ALL" "AML");
+    HR_Constraint_LYN = "Arrow";
+    HR_Constraint_PFC = "Arrow";
+    HR_Constraint_PRG1 = "Arrow";
+    HR_Constraint_MLC1SA = "Arrow";
+    HR_Constraint_CLU = "Arrow";
+    HR_Constraint_VPREB1 = "Arrow";
+    HR_Constraint_CST3 = "Arrow";
+    HR_Constraint_CD63 = "Arrow";
+    HR_Constraint_APLP2 = "Arrow";
+    HR_Constraint_AZU1 = "Arrow";
+    HR_Constraint_TCF3_2 = "Arrow";
+    HR_Constraint_PSMA6 = "Arrow";
+    HR_Constraint_DNTT = "Arrow";
+    HR_Constraint_CCND3 = "Arrow";
+    HR_Constraint_CD33 = "Arrow";
+    HR_Constraint_GRN = "Arrow";
+    HR_Constraint_CTSD = "Arrow";
+    HR_Constraint_CD79A = "Arrow";
+    HR_Constraint_ZYX = "Arrow";
+    HR_Constraint_DF = "Arrow";
+    HR_Constraint_CSTA = "Arrow";
+    HR_Constraint_MGST1 = "Arrow";
+    HR_Constraint_RHOG = "Arrow";
+    HR_Constraint_SPTAN1 = "Arrow";
+    HR_LinkMode = "[SPTAN1:0][RHOG:0][MGST1:0][CSTA:0][DF:0][ZYX:0][CD79A:0][CTSD:0][GRN:0][CD33:0][CCND3:0][DNTT:0][PSMA6:0][TCF3_2:0][AZU1:0][APLP2:0][CD63:0][CST3:0][VPREB1:0][CLU:0][MLC1SA:0][PRG1:0][PFC:0][LYN:0]";
+}
+
+potential (SPTAN1 | gene)
+{
+    data
+     = (( 0.863636 0.136364 )	%  gene=ALL
+	( 0.138889 0.861111 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (RHOG | gene)
+{
+    data
+     = (( 0.19697 0.80303 )	%  gene=ALL
+	( 0.972222 0.0277778 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (MGST1 | gene)
+{
+    data
+     = (( 0.0454545 0.954545 )	%  gene=ALL
+	( 0.972222 0.0277778 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (CSTA | gene)
+{
+    data
+     = (( 0.984848 0.0151515 )	%  gene=ALL
+	( 0.138889 0.861111 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (DF | gene)
+{
+    data
+     = (( 0.984848 0.0151515 )	%  gene=ALL
+	( 0.0833333 0.916667 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (ZYX | gene)
+{
+    data
+     = (( 0.924242 0.0757576 )	%  gene=ALL
+	( 0.0833333 0.916667 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (CD79A | gene)
+{
+    data
+     = (( 0.227273 0.772727 )	%  gene=ALL
+	( 0.916667 0.0833333 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (CTSD | gene)
+{
+    data
+     = (( 0.924242 0.0757576 )	%  gene=ALL
+	( 0.305556 0.694444 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (GRN | gene)
+{
+    data
+     = (( 0.984848 0.0151515 )	%  gene=ALL
+	( 0.25 0.75 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (CD33 | gene)
+{
+    data
+     = (( 0.984848 0.0151515 )	%  gene=ALL
+	( 0.0833333 0.916667 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (CCND3 | gene)
+{
+    data
+     = (( 0.863636 0.136364 )	%  gene=ALL
+	( 0.0277778 0.972222 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (DNTT | gene)
+{
+    data
+     = (( 0.106061 0.893939 )	%  gene=ALL
+	( 0.972222 0.0277778 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (PSMA6 | gene)
+{
+    data
+     = (( 0.166667 0.833333 )	%  gene=ALL
+	( 0.916667 0.0833333 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (TCF3_2 | gene)
+{
+    data
+     = (( 0.924242 0.0757576 )	%  gene=ALL
+	( 0.0277778 0.972222 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (AZU1 | gene)
+{
+    data
+     = (( 0.833333 0.166667 )	%  gene=ALL
+	( 0.0833333 0.916667 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (APLP2 | gene)
+{
+    data
+     = (( 0.893939 0.106061 )	%  gene=ALL
+	( 0.0277778 0.972222 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (CD63 | gene)
+{
+    data
+     = (( 0.833333 0.166667 )	%  gene=ALL
+	( 0.0277778 0.972222 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (CST3 | gene)
+{
+    data
+     = (( 0.954545 0.0454545 )	%  gene=ALL
+	( 0.0833333 0.916667 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (VPREB1 | gene)
+{
+    data
+     = (( 0.257576 0.742424 )	%  gene=ALL
+	( 0.972222 0.0277778 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (CLU | gene)
+{
+    data
+     = (( 0.863636 0.136364 )	%  gene=ALL
+	( 0.194444 0.805556 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (MLC1SA | gene)
+{
+    data
+     = (( 0.893939 0.106061 )	%  gene=ALL
+	( 0.0833333 0.916667 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (PRG1 | gene)
+{
+    data
+     = (( 0.893939 0.106061 )	%  gene=ALL
+	( 0.138889 0.861111 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (PFC | gene)
+{
+    data
+     = (( 0.954545 0.0454545 )	%  gene=ALL
+	( 0.25 0.75 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (LYN | gene)
+{
+    data
+     = (( 0.863636 0.136364 )	%  gene=ALL
+	( 0.25 0.75 ));	%  gene=AML
+    experience
+     = ( 33	%  gene=ALL
+	 18 );	%  gene=AML
+}
+
+potential (gene)
+{
+    data = ( 0.647059 0.352941 );
+    experience = 51;
+}

@@ -1,0 +1,352 @@
+Sun Jan 12 15:27:24 2014
+
+
+Moral links:
+
+
+
+Triangulating prime component with 1 member:
+    SPTAN1
+This component is a clique of cost 2
+
+Triangulating prime component with 1 member:
+    CD33
+This component is a clique of cost 2
+
+Triangulating prime component with 1 member:
+    MLC1SA
+This component is a clique of cost 2
+
+Triangulating prime component with 2 members:
+    CSTA, DF
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    ZYX, APLP2
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    RHOG, CD63
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    CST3, PRG1
+This component is a clique of cost 4
+
+Triangulating prime component with 1 member:
+    TCF3_2
+This component is a clique of cost 2
+
+Triangulating prime component with 2 members:
+    DNTT, PSMA6
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    DNTT, VPREB1
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    CD79A, VPREB1
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    CD79A, GRN
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    GRN, AZU1
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    CTSD, AZU1
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    CTSD, CLU
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    PFC, LYN
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    CCND3, PFC
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    MGST1, gene
+This component is a clique of cost 4
+
+
+Total cost of triangulation for all prime components is 64
+
+
+Elimination sequence:
+
+    gene
+    MGST1
+    CCND3
+    LYN
+    PFC
+    CLU
+    CTSD
+    AZU1
+    GRN
+    CD79A
+    VPREB1
+    PSMA6
+    DNTT
+    TCF3_2
+    PRG1
+    CST3
+    CD63
+    RHOG
+    APLP2
+    ZYX
+    DF
+    CSTA
+    MLC1SA
+    CD33
+    SPTAN1
+
+
+Cliques:
+
+Clique 18, 2 members, table size = 4:
+    MGST1, gene
+
+Clique 17, 2 members, table size = 4:
+    PFC, LYN
+
+Clique 16, 2 members, table size = 4:
+    PFC, CCND3
+
+Clique 15, 2 members, table size = 4:
+    DNTT, PSMA6
+
+Clique 14, 2 members, table size = 4:
+    DNTT, VPREB1
+
+Clique 13, 2 members, table size = 4:
+    VPREB1, CD79A
+
+Clique 12, 2 members, table size = 4:
+    CD79A, GRN
+
+Clique 11, 2 members, table size = 4:
+    GRN, AZU1
+
+Clique 10, 2 members, table size = 4:
+    AZU1, CTSD
+
+Clique 9, 2 members, table size = 4:
+    CTSD, CLU
+
+Clique 8, 1 member, table size = 2:
+    TCF3_2
+
+Clique 7, 2 members, table size = 4:
+    CST3, PRG1
+
+Clique 6, 2 members, table size = 4:
+    RHOG, CD63
+
+Clique 5, 2 members, table size = 4:
+    ZYX, APLP2
+
+Clique 4, 2 members, table size = 4:
+    CSTA, DF
+
+Clique 3, 1 member, table size = 2:
+    MLC1SA
+
+Clique 2, 1 member, table size = 2:
+    CD33
+
+Clique 1, 1 member, table size = 2:
+    SPTAN1
+
+Total clique table size: 64
+
+
+The junction forest:
+
+Creating junction tree with clique 18 as root ...
+
+Creating junction tree with clique 17 as root ...
+
+Cliques 16 and 17 linked, separator has 1 member and table size = 2:
+    PFC
+
+Creating junction tree with clique 15 as root ...
+
+Cliques 14 and 15 linked, separator has 1 member and table size = 2:
+    DNTT
+
+Cliques 13 and 14 linked, separator has 1 member and table size = 2:
+    VPREB1
+
+Cliques 12 and 13 linked, separator has 1 member and table size = 2:
+    CD79A
+
+Cliques 11 and 12 linked, separator has 1 member and table size = 2:
+    GRN
+
+Cliques 10 and 11 linked, separator has 1 member and table size = 2:
+    AZU1
+
+Cliques 9 and 10 linked, separator has 1 member and table size = 2:
+    CTSD
+
+Creating junction tree with clique 8 as root ...
+
+Creating junction tree with clique 7 as root ...
+
+Creating junction tree with clique 6 as root ...
+
+Creating junction tree with clique 5 as root ...
+
+Creating junction tree with clique 4 as root ...
+
+Creating junction tree with clique 3 as root ...
+
+Creating junction tree with clique 2 as root ...
+
+Creating junction tree with clique 1 as root ...
+
+
+Assignment of potentials to cliques:
+
+    Node SPTAN1 assigned to clique 1
+    Node RHOG assigned to clique 6
+    Node MGST1 assigned to clique 18
+    Node CSTA assigned to clique 4
+    Node DF assigned to clique 4
+    Node ZYX assigned to clique 5
+    Node CD79A assigned to clique 12
+    Node CTSD assigned to clique 10
+    Node GRN assigned to clique 11
+    Node CD33 assigned to clique 2
+    Node CCND3 assigned to clique 16
+    Node DNTT assigned to clique 14
+    Node PSMA6 assigned to clique 15
+    Node TCF3_2 assigned to clique 8
+    Node AZU1 assigned to clique 11
+    Node APLP2 assigned to clique 5
+    Node CD63 assigned to clique 6
+    Node CST3 assigned to clique 7
+    Node VPREB1 assigned to clique 13
+    Node CLU assigned to clique 9
+    Node MLC1SA assigned to clique 3
+    Node PRG1 assigned to clique 7
+    Node PFC assigned to clique 17
+    Node LYN assigned to clique 17
+    Node gene assigned to clique 18
+
+
+Checking conditional probability potentials:
+
+    No error found
+
+
+Beliefs for chance nodes:
+
+    SPTAN1:
+	yes        0.61
+	no         0.39
+
+    RHOG:
+	yes        0.47
+	no         0.53
+
+    MGST1:
+	yes        0.37
+	no         0.63
+
+    CSTA:
+	no         0.69
+	yes        0.31
+
+    DF:
+	no         0.67
+	yes        0.33
+
+    ZYX:
+	no         0.63
+	yes        0.37
+
+    CD79A:
+	no         0.47
+	yes        0.53
+
+    CTSD:
+	no         0.71
+	yes        0.29
+
+    GRN:
+	no         0.73
+	yes        0.27
+
+    CD33:
+	no         0.67
+	yes        0.33
+
+    CCND3:
+	yes        0.57
+	no         0.43
+
+    DNTT:
+	no         0.41
+	yes        0.59
+
+    PSMA6:
+	no         0.43
+	yes        0.57
+
+    TCF3_2:
+	yes        0.61
+	no         0.39
+
+    AZU1:
+	no         0.57
+	yes        0.43
+
+    APLP2:
+	no         0.59
+	yes        0.41
+
+    CD63:
+	no         0.55
+	yes        0.45
+
+    CST3:
+	no         0.65
+	yes        0.35
+
+    VPREB1:
+	no         0.51
+	yes        0.49
+
+    CLU:
+	no         0.63
+	yes        0.37
+
+    MLC1SA:
+	yes        0.61
+	no         0.39
+
+    PRG1:
+	no         0.63
+	yes        0.37
+
+    PFC:
+	no         0.71
+	yes        0.29
+
+    LYN:
+	no         0.65
+	yes        0.35
+
+    gene:
+	ALL        0.65
+	AML        0.35

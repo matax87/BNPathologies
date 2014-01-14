@@ -1,0 +1,451 @@
+net
+{
+    node_size = (80 40);
+    HR_realname_gene = "gene";
+    HR_realname_LYN = "LYN";
+    HR_realname_PFC = "PFC";
+    HR_realname_PRG1 = "PRG1";
+    HR_realname_MLC1SA = "MLC1SA";
+    HR_realname_CLU = "CLU";
+    HR_realname_VPREB1 = "VPREB1";
+    HR_realname_CST3 = "CST3";
+    HR_realname_CD63 = "CD63";
+    HR_realname_APLP2 = "APLP2";
+    HR_realname_AZU1 = "AZU1";
+    HR_realname_TCF3_2 = "TCF3_2";
+    HR_realname_PSMA6 = "PSMA6";
+    HR_realname_DNTT = "DNTT";
+    HR_realname_CCND3 = "CCND3";
+    HR_realname_CD33 = "CD33";
+    HR_realname_GRN = "GRN";
+    HR_realname_CTSD = "CTSD";
+    HR_realname_CD79A = "CD79A";
+    HR_realname_ZYX = "ZYX";
+    HR_realname_DF = "DF";
+    HR_realname_CSTA = "CSTA";
+    HR_realname_MGST1 = "MGST1";
+    HR_realname_RHOG = "RHOG";
+    HR_realname_SPTAN1 = "SPTAN1";
+    HR_Has_Constraints = "yes";
+    HR_Desc = "";
+    HR_OOBN_CheckConsistency = "1";
+    HR_OOBN_FitExpand = "1";
+    HR_Zoom_ZoomFactor = "100";
+    HR_Groups_GroupColors = "";
+    HR_Groups_GroupNames = "";
+    HR_Groups_UserGroupsNo = "0";
+    HR_Color_Interface = "21";
+    HR_Color_Instance = "0";
+    HR_Color_DiscreteFunction = "5";
+    HR_Color_Function = "4";
+    HR_Color_Utility = "36";
+    HR_Color_Decision = "17";
+    HR_Color_ContinuousChance = "48";
+    HR_Color_DiscreteChance = "16";
+    HR_Monitor_InitSD = "2";
+    HR_Monitor_Utility_Arrange = "0";
+    HR_Monitor_Mean_Variance = "1";
+    HR_Monitor_Chance_Utility = "1";
+    HR_Monitor_InitStates = "5";
+    HR_Monitor_OpenGraph = "0";
+    HR_Monitor_GraphPrecision = "100";
+    HR_Monitor_AutoUpdGraph = "0";
+    HR_Compile_MaxMinimalSeparators = "100000";
+    HR_Compile_ApproxEpsilon = "1.0E-5";
+    HR_Compile_Approximate = "0";
+    HR_Compile_SaveToMemory = "0";
+    HR_Compile_Compress = "0";
+    HR_Compile_TriangMethod = "0";
+    HR_Propagate_AutoNormal = "1";
+    HR_Propagate_AutoSum = "1";
+    HR_Propagate_Auto = "1";
+    HR_Font_Italic = "0";
+    HR_Font_Weight = "400";
+    HR_Font_Size = "-12";
+    HR_Font_Name = "com.apple.laf.AquaFonts$DerivedUIResourceFont[family=Lucida Grande,name=Lucida Grande,style=plain,size=13]";
+    HR_Grid_GridShow = "0";
+    HR_Grid_GridSnap = "0";
+    HR_Grid_Y = "40";
+    HR_Grid_X = "40";
+}
+
+node SPTAN1
+{
+    position = (50 370);
+    states = ("yes" "no");
+    HR_LinkMode = "[gene:0][MLC1SA:0][TCF3_2:0][CLU:0][AZU1:0][CTSD:0][RHOG:0][MGST1:0][CSTA:0][DF:0][ZYX:0][CD79A:0][GRN:0][CD33:0][CCND3:0][DNTT:0][PSMA6:0][APLP2:0][CD63:0][CST3:0][VPREB1:0][PRG1:0][PFC:0][LYN:0]";
+}
+
+node RHOG
+{
+    position = (210 350);
+    states = ("yes" "no");
+    HR_LinkMode = "[gene:0][CST3:0][CD33:0][DF:0][CSTA:0][MGST1:0][ZYX:0][CD79A:0][CTSD:0][GRN:0][CCND3:0][DNTT:0][PSMA6:0][TCF3_2:0][AZU1:0][APLP2:0][CD63:0][VPREB1:0][CLU:0][MLC1SA:0][PRG1:0][PFC:0][LYN:0]";
+}
+
+node MGST1
+{
+    position = (370 370);
+    states = ("yes" "no");
+    HR_LinkMode = "[PRG1:0][CST3:0][APLP2:0][ZYX:0][MLC1SA:0][CLU:0][TCF3_2:0][PSMA6:0][DNTT:0][CCND3:0][CD33:0][GRN:0][DF:0][CSTA:0][CD79A:0][CTSD:0][AZU1:0][CD63:0][VPREB1:0][PFC:0][LYN:0][gene:0]";
+}
+
+node CSTA
+{
+    position = (530 350);
+    states = ("no" "yes");
+    HR_LinkMode = "[PRG1:0][CST3:0][ZYX:0][CD63:0][CCND3:0][GRN:0][gene:0][AZU1:0][DF:0][CD79A:0][CTSD:0][CD33:0][DNTT:0][PSMA6:0][TCF3_2:0][APLP2:0][VPREB1:0][CLU:0][MLC1SA:0][PFC:0][LYN:0]";
+}
+
+node DF
+{
+    position = (690 370);
+    states = ("no" "yes");
+    HR_LinkMode = "[CSTA:0][PRG1:0][CST3:0][APLP2:0][ZYX:0][MLC1SA:0][CD63:0][TCF3_2:0][CCND3:0][CD33:0][GRN:0][gene:0][AZU1:0][CD79A:0][CTSD:0][DNTT:0][PSMA6:0][VPREB1:0][CLU:0][PFC:0][LYN:0]";
+}
+
+node ZYX
+{
+    position = (90 290);
+    states = ("no" "yes");
+    HR_LinkMode = "[gene:0][PRG1:0][CST3:0][DNTT:0][MLC1SA:0][CD63:0][CD79A:0][CTSD:0][GRN:0][CD33:0][CCND3:0][PSMA6:0][TCF3_2:0][AZU1:0][APLP2:0][VPREB1:0][CLU:0][PFC:0][LYN:0]";
+}
+
+node CD79A
+{
+    position = (250 270);
+    states = ("no" "yes");
+    HR_LinkMode = "[VPREB1:0][CTSD:0][GRN:0][CD33:0][CCND3:0][DNTT:0][PSMA6:0][TCF3_2:0][AZU1:0][APLP2:0][CD63:0][CST3:0][CLU:0][MLC1SA:0][PRG1:0][PFC:0][LYN:0][gene:0]";
+}
+
+node CTSD
+{
+    position = (410 290);
+    states = ("no" "yes");
+    HR_LinkMode = "[CLU:0][GRN:0][CD33:0][CCND3:0][DNTT:0][PSMA6:0][TCF3_2:0][AZU1:0][APLP2:0][CD63:0][CST3:0][VPREB1:0][MLC1SA:0][PRG1:0][PFC:0][LYN:0][gene:0]";
+}
+
+node GRN
+{
+    position = (570 270);
+    states = ("no" "yes");
+    HR_LinkMode = "[CD79A:0][gene:0][CD33:0][CCND3:0][DNTT:0][PSMA6:0][TCF3_2:0][AZU1:0][APLP2:0][CD63:0][CST3:0][VPREB1:0][CLU:0][MLC1SA:0][PRG1:0][PFC:0][LYN:0]";
+}
+
+node CD33
+{
+    position = (730 290);
+    states = ("no" "yes");
+    HR_LinkMode = "[PRG1:0][CST3:0][CD63:0][gene:0][CCND3:0][DNTT:0][PSMA6:0][TCF3_2:0][AZU1:0][APLP2:0][VPREB1:0][CLU:0][MLC1SA:0][PFC:0][LYN:0]";
+}
+
+node CCND3
+{
+    position = (50 210);
+    states = ("yes" "no");
+    HR_LinkMode = "[gene:0][DNTT:0][PSMA6:0][TCF3_2:0][AZU1:0][APLP2:0][CD63:0][CST3:0][VPREB1:0][CLU:0][MLC1SA:0][PRG1:0][PFC:0][LYN:0]";
+}
+
+node DNTT
+{
+    position = (210 190);
+    states = ("no" "yes");
+    HR_LinkMode = "[PRG1:0][CST3:0][APLP2:0][MLC1SA:0][gene:0][PSMA6:0][TCF3_2:0][AZU1:0][CD63:0][VPREB1:0][CLU:0][PFC:0][LYN:0]";
+}
+
+node PSMA6
+{
+    position = (370 210);
+    states = ("no" "yes");
+    HR_LinkMode = "[DNTT:0][CST3:0][TCF3_2:0][AZU1:0][APLP2:0][CD63:0][VPREB1:0][CLU:0][MLC1SA:0][PRG1:0][PFC:0][LYN:0][gene:0]";
+}
+
+node TCF3_2
+{
+    position = (530 190);
+    states = ("yes" "no");
+    HR_LinkMode = "[PRG1:0][CST3:0][gene:0][AZU1:0][APLP2:0][CD63:0][VPREB1:0][CLU:0][MLC1SA:0][PFC:0][LYN:0]";
+}
+
+node AZU1
+{
+    position = (690 210);
+    states = ("no" "yes");
+    HR_LinkMode = "[CTSD:0][GRN:0][APLP2:0][CD63:0][CST3:0][VPREB1:0][CLU:0][MLC1SA:0][PRG1:0][PFC:0][LYN:0][gene:0]";
+}
+
+node APLP2
+{
+    position = (90 130);
+    states = ("no" "yes");
+    HR_LinkMode = "[ZYX:0][gene:0][PRG1:0][CST3:0][MLC1SA:0][CD63:0][VPREB1:0][CLU:0][PFC:0][LYN:0]";
+}
+
+node CD63
+{
+    position = (250 110);
+    states = ("no" "yes");
+    HR_LinkMode = "[RHOG:0][gene:0][CST3:0][VPREB1:0][CLU:0][MLC1SA:0][PRG1:0][PFC:0][LYN:0]";
+}
+
+node CST3
+{
+    position = (410 130);
+    states = ("no" "yes");
+    HR_LinkMode = "[gene:0][VPREB1:0][MLC1SA:0][CLU:0][PRG1:0][PFC:0][LYN:0]";
+}
+
+node VPREB1
+{
+    position = (570 110);
+    states = ("no" "yes");
+    HR_LinkMode = "[CD79A:0][DNTT:0][CLU:0][MLC1SA:0][PRG1:0][PFC:0][LYN:0][gene:0]";
+}
+
+node CLU
+{
+    position = (730 130);
+    states = ("no" "yes");
+    HR_LinkMode = "[CTSD:0][gene:0][MLC1SA:0][PRG1:0][PFC:0][LYN:0]";
+}
+
+node MLC1SA
+{
+    position = (50 50);
+    states = ("yes" "no");
+    HR_LinkMode = "[gene:0][PRG1:0][PFC:0][LYN:0]";
+}
+
+node PRG1
+{
+    position = (210 30);
+    states = ("no" "yes");
+    HR_LinkMode = "[CST3:0][gene:0][PFC:0][LYN:0]";
+}
+
+node PFC
+{
+    position = (370 50);
+    states = ("no" "yes");
+    HR_LinkMode = "[CCND3:0][LYN:0][gene:0]";
+}
+
+node LYN
+{
+    position = (530 30);
+    states = ("no" "yes");
+    HR_LinkMode = "[PFC:0][gene:0]";
+}
+
+node gene
+{
+    position = (690 50);
+    states = ("ALL" "AML");
+    HR_LinkMode = "[MGST1:0]";
+}
+
+potential (SPTAN1)
+{
+    data = ( 0.61 0.39 );
+    experience = 50;
+}
+
+potential (RHOG | CD63)
+{
+    data
+     = (( 0.118182 0.881818 )	%  CD63=no
+	( 0.9 0.1 ));	%  CD63=yes
+    experience
+     = ( 27.5	%  CD63=no
+	 22.5 );	%  CD63=yes
+}
+
+potential (MGST1 | gene)
+{
+    data
+     = (( 0.0384615 0.961538 )	%  gene=ALL
+	( 0.985714 0.0142857 ));	%  gene=AML
+    experience
+     = ( 32.5	%  gene=ALL
+	 17.5 );	%  gene=AML
+}
+
+potential (CSTA | DF)
+{
+    data
+     = (( 0.992537 0.00746269 )	%  DF=no
+	( 0.0757576 0.924242 ));	%  DF=yes
+    experience
+     = ( 33.5	%  DF=no
+	 16.5 );	%  DF=yes
+}
+
+potential (DF)
+{
+    data = ( 0.67 0.33 );
+    experience = 50;
+}
+
+potential (ZYX | APLP2)
+{
+    data
+     = (( 0.991525 0.00847458 )	%  APLP2=no
+	( 0.109756 0.890244 ));	%  APLP2=yes
+    experience
+     = ( 29.5	%  APLP2=no
+	 20.5 );	%  APLP2=yes
+}
+
+potential (CD79A | GRN)
+{
+    data
+     = (( 0.280822 0.719178 )	%  GRN=no
+	( 0.981481 0.0185185 ));	%  GRN=yes
+    experience
+     = ( 36.5	%  GRN=no
+	 13.5 );	%  GRN=yes
+}
+
+potential (CTSD | AZU1)
+{
+    data
+     = (( 0.991228 0.00877193 )	%  AZU1=no
+	( 0.337209 0.662791 ));	%  AZU1=yes
+    experience
+     = ( 28.5	%  AZU1=no
+	 21.5 );	%  AZU1=yes
+}
+
+potential (GRN | AZU1)
+{
+    data
+     = (( 0.991228 0.00877193 )	%  AZU1=no
+	( 0.383721 0.616279 ));	%  AZU1=yes
+    experience
+     = ( 28.5	%  AZU1=no
+	 21.5 );	%  AZU1=yes
+}
+
+potential (CD33)
+{
+    data = ( 0.67 0.33 );
+    experience = 50;
+}
+
+potential (CCND3 | PFC)
+{
+    data
+     = (( 0.795775 0.204225 )	%  PFC=no
+	( 0.0172414 0.982759 ));	%  PFC=yes
+    experience
+     = ( 35.5	%  PFC=no
+	 14.5 );	%  PFC=yes
+}
+
+potential (DNTT | VPREB1)
+{
+    data
+     = (( 0.794118 0.205882 )	%  VPREB1=no
+	( 0.0102041 0.989796 ));	%  VPREB1=yes
+    experience
+     = ( 25.5	%  VPREB1=no
+	 24.5 );	%  VPREB1=yes
+}
+
+potential (PSMA6 | DNTT)
+{
+    data
+     = (( 0.939024 0.0609756 )	%  DNTT=no
+	( 0.0762712 0.923729 ));	%  DNTT=yes
+    experience
+     = ( 20.5	%  DNTT=no
+	 29.5 );	%  DNTT=yes
+}
+
+potential (TCF3_2)
+{
+    data = ( 0.61 0.39 );
+    experience = 50;
+}
+
+potential (AZU1)
+{
+    data = ( 0.57 0.43 );
+    experience = 50;
+}
+
+potential (APLP2)
+{
+    data = ( 0.59 0.41 );
+    experience = 50;
+}
+
+potential (CD63)
+{
+    data = ( 0.55 0.45 );
+    experience = 50;
+}
+
+potential (CST3 | PRG1)
+{
+    data
+     = (( 0.960317 0.0396825 )	%  PRG1=no
+	( 0.121622 0.878378 ));	%  PRG1=yes
+    experience
+     = ( 31.5	%  PRG1=no
+	 18.5 );	%  PRG1=yes
+}
+
+potential (VPREB1 | CD79A)
+{
+    data
+     = (( 0.904255 0.0957447 )	%  CD79A=no
+	( 0.160377 0.839623 ));	%  CD79A=yes
+    experience
+     = ( 23.5	%  CD79A=no
+	 26.5 );	%  CD79A=yes
+}
+
+potential (CLU | CTSD)
+{
+    data
+     = (( 0.852113 0.147887 )	%  CTSD=no
+	( 0.0862069 0.913793 ));	%  CTSD=yes
+    experience
+     = ( 35.5	%  CTSD=no
+	 14.5 );	%  CTSD=yes
+}
+
+potential (MLC1SA)
+{
+    data = ( 0.61 0.39 );
+    experience = 50;
+}
+
+potential (PRG1)
+{
+    data = ( 0.63 0.37 );
+    experience = 50;
+}
+
+potential (PFC | LYN)
+{
+    data
+     = (( 0.930769 0.0692308 )	%  LYN=no
+	( 0.3 0.7 ));	%  LYN=yes
+    experience
+     = ( 32.5	%  LYN=no
+	 17.5 );	%  LYN=yes
+}
+
+potential (LYN)
+{
+    data = ( 0.65 0.35 );
+    experience = 50;
+}
+
+potential (gene)
+{
+    data = ( 0.65 0.35 );
+    experience = 50;
+}

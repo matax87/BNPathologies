@@ -1,0 +1,381 @@
+Sat Jan 11 17:04:54 2014
+
+
+Moral links:
+
+    Marrying DNTT and CSTA
+    Marrying APLP2 and PSMA6
+    Marrying CST3 and SPTAN1
+    Marrying CST3 and CTSD
+    Marrying VPREB1 and RHOG
+
+
+Triangulating prime component with 2 members:
+    ZYX, CD63
+This component is a clique of cost 4
+
+Triangulating prime component with 3 members:
+    ZYX, PSMA6, APLP2
+This component is a clique of cost 8
+
+Triangulating prime component with 2 members:
+    CST3, LYN
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    CST3, PRG1
+This component is a clique of cost 4
+
+Triangulating prime component with 3 members:
+    CTSD, CST3, CLU
+This component is a clique of cost 8
+
+Triangulating prime component with 3 members:
+    SPTAN1, CST3, MLC1SA
+This component is a clique of cost 8
+
+Triangulating prime component with 2 members:
+    CSTA, GRN
+This component is a clique of cost 4
+
+Triangulating prime component with 3 members:
+    RHOG, CD79A, VPREB1
+This component is a clique of cost 8
+
+Triangulating prime component with 4 members:
+    DNTT, PSMA6, APLP2, CST3
+
+    Using the best greedy heuristic for triangulation
+
+
+Triangulating prime component with 2 members:
+    CD33, PFC
+This component is a clique of cost 4
+
+Triangulating prime component with 4 members:
+    RHOG, MGST1, DNTT, VPREB1
+
+    Using the best greedy heuristic for triangulation
+
+
+Triangulating prime component with 2 members:
+    CD33, gene
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    CCND3, gene
+This component is a clique of cost 4
+
+Triangulating prime component with 10 members:
+    SPTAN1, MGST1, CSTA, DF, CTSD, DNTT, TCF3_2, AZU1, CST3, gene
+
+    Using the best greedy heuristic for triangulation
+
+
+
+Total cost of triangulation for all prime components is 164
+
+
+Elimination sequence:
+
+    LYN
+    PRG1
+    PFC
+    CD33
+    CCND3
+    GRN
+    MLC1SA
+    SPTAN1
+    TCF3_2
+    CD79A
+    RHOG
+    VPREB1
+    MGST1
+    CLU
+    CTSD
+    AZU1
+    DF
+    CSTA
+    gene
+    DNTT
+    CST3
+    APLP2
+    PSMA6
+    CD63
+    ZYX
+
+
+Cliques:
+
+Clique 22, 2 members, table size = 4:
+    ZYX, CD63
+
+Clique 21, 3 members, table size = 8:
+    ZYX, PSMA6, APLP2
+
+Clique 20, 3 members, table size = 8:
+    PSMA6, APLP2, CST3
+
+Clique 19, 3 members, table size = 8:
+    PSMA6, CST3, DNTT
+
+Clique 18, 4 members, table size = 16:
+    CST3, DNTT, gene, CSTA
+
+Clique 17, 4 members, table size = 16:
+    CST3, gene, CSTA, DF
+
+Clique 16, 3 members, table size = 8:
+    CST3, DF, AZU1
+
+Clique 15, 3 members, table size = 8:
+    CST3, AZU1, CTSD
+
+Clique 14, 3 members, table size = 8:
+    CST3, CTSD, CLU
+
+Clique 13, 3 members, table size = 8:
+    DNTT, gene, MGST1
+
+Clique 12, 3 members, table size = 8:
+    DNTT, MGST1, VPREB1
+
+Clique 11, 3 members, table size = 8:
+    MGST1, VPREB1, RHOG
+
+Clique 10, 3 members, table size = 8:
+    VPREB1, RHOG, CD79A
+
+Clique 9, 3 members, table size = 8:
+    CST3, gene, TCF3_2
+
+Clique 8, 3 members, table size = 8:
+    CST3, TCF3_2, SPTAN1
+
+Clique 7, 3 members, table size = 8:
+    CST3, SPTAN1, MLC1SA
+
+Clique 6, 2 members, table size = 4:
+    gene, CCND3
+
+Clique 5, 2 members, table size = 4:
+    gene, CD33
+
+Clique 4, 2 members, table size = 4:
+    CD33, PFC
+
+Clique 3, 2 members, table size = 4:
+    CSTA, GRN
+
+Clique 2, 2 members, table size = 4:
+    CST3, PRG1
+
+Clique 1, 2 members, table size = 4:
+    CST3, LYN
+
+Total clique table size: 164
+
+
+The junction forest:
+
+Creating junction tree with clique 22 as root ...
+
+Cliques 21 and 22 linked, separator has 1 member and table size = 2:
+    ZYX
+
+Cliques 20 and 21 linked, separator has 2 members and table size = 4:
+    PSMA6, APLP2
+
+Cliques 19 and 20 linked, separator has 2 members and table size = 4:
+    PSMA6, CST3
+
+Cliques 18 and 19 linked, separator has 2 members and table size = 4:
+    CST3, DNTT
+
+Cliques 17 and 18 linked, separator has 3 members and table size = 8:
+    CST3, gene, CSTA
+
+Cliques 16 and 17 linked, separator has 2 members and table size = 4:
+    CST3, DF
+
+Cliques 15 and 16 linked, separator has 2 members and table size = 4:
+    CST3, AZU1
+
+Cliques 14 and 15 linked, separator has 2 members and table size = 4:
+    CST3, CTSD
+
+Cliques 13 and 18 linked, separator has 2 members and table size = 4:
+    DNTT, gene
+
+Cliques 12 and 13 linked, separator has 2 members and table size = 4:
+    DNTT, MGST1
+
+Cliques 11 and 12 linked, separator has 2 members and table size = 4:
+    MGST1, VPREB1
+
+Cliques 10 and 11 linked, separator has 2 members and table size = 4:
+    VPREB1, RHOG
+
+Cliques 9 and 18 linked, separator has 2 members and table size = 4:
+    CST3, gene
+
+Cliques 8 and 9 linked, separator has 2 members and table size = 4:
+    CST3, TCF3_2
+
+Cliques 7 and 8 linked, separator has 2 members and table size = 4:
+    CST3, SPTAN1
+
+Cliques 6 and 9 linked, separator has 1 member and table size = 2:
+    gene
+
+Cliques 5 and 6 linked, separator has 1 member and table size = 2:
+    gene
+
+Cliques 4 and 5 linked, separator has 1 member and table size = 2:
+    CD33
+
+Cliques 3 and 18 linked, separator has 1 member and table size = 2:
+    CSTA
+
+Cliques 2 and 20 linked, separator has 1 member and table size = 2:
+    CST3
+
+Cliques 1 and 2 linked, separator has 1 member and table size = 2:
+    CST3
+
+
+Assignment of potentials to cliques:
+
+    Node SPTAN1 assigned to clique 8
+    Node RHOG assigned to clique 11
+    Node MGST1 assigned to clique 13
+    Node CSTA assigned to clique 17
+    Node DF assigned to clique 17
+    Node ZYX assigned to clique 21
+    Node CD79A assigned to clique 10
+    Node CTSD assigned to clique 15
+    Node GRN assigned to clique 3
+    Node CD33 assigned to clique 5
+    Node CCND3 assigned to clique 6
+    Node DNTT assigned to clique 13
+    Node PSMA6 assigned to clique 19
+    Node TCF3_2 assigned to clique 8
+    Node AZU1 assigned to clique 16
+    Node APLP2 assigned to clique 20
+    Node CD63 assigned to clique 22
+    Node CST3 assigned to clique 18
+    Node VPREB1 assigned to clique 12
+    Node CLU assigned to clique 14
+    Node MLC1SA assigned to clique 7
+    Node PRG1 assigned to clique 2
+    Node PFC assigned to clique 4
+    Node LYN assigned to clique 1
+    Node gene assigned to clique 9
+
+
+Checking conditional probability potentials:
+
+    No error found
+
+
+Beliefs for chance nodes:
+
+    SPTAN1:
+	yes        0.61
+	no         0.39
+
+    RHOG:
+	yes        0.47
+	no         0.53
+
+    MGST1:
+	yes        0.37
+	no         0.63
+
+    CSTA:
+	no         0.69
+	yes        0.31
+
+    DF:
+	no         0.67
+	yes        0.33
+
+    ZYX:
+	no         0.642706
+	yes        0.357294
+
+    CD79A:
+	no         0.45576
+	yes        0.54424
+
+    CTSD:
+	no         0.71
+	yes        0.29
+
+    GRN:
+	no         0.73
+	yes        0.27
+
+    CD33:
+	no         0.67
+	yes        0.33
+
+    CCND3:
+	yes        0.57
+	no         0.43
+
+    DNTT:
+	no         0.41
+	yes        0.59
+
+    PSMA6:
+	no         0.43
+	yes        0.57
+
+    TCF3_2:
+	yes        0.61
+	no         0.39
+
+    AZU1:
+	no         0.57
+	yes        0.43
+
+    APLP2:
+	no         0.590924
+	yes        0.409076
+
+    CD63:
+	no         0.56082
+	yes        0.43918
+
+    CST3:
+	no         0.651043
+	yes        0.348957
+
+    VPREB1:
+	no         0.51
+	yes        0.49
+
+    CLU:
+	no         0.628572
+	yes        0.371428
+
+    MLC1SA:
+	yes        0.610082
+	no         0.389918
+
+    PRG1:
+	no         0.630896
+	yes        0.369104
+
+    PFC:
+	no         0.71
+	yes        0.29
+
+    LYN:
+	no         0.650745
+	yes        0.349255
+
+    gene:
+	ALL        0.65
+	AML        0.35
