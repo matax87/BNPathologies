@@ -40,7 +40,7 @@ def info_gain(A, S):
 	ig = information_entropy(S)
 	for v in set(A):
 		Sv = [y for (x, y) in zip(A, S) if x == v]
-		ig -= information_entropy(Sv) * len(Sv) / float(len(S))
+		ig -= information_entropy(Sv) * (len(Sv) / float(len(S)))
 	return ig
 	
 if __name__=="__main__":

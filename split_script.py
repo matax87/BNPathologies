@@ -6,7 +6,7 @@ def main():
 	data = io.read_csv('data/disc_fselected.csv')
 
 	# split data proportionally on the last column into training, test sets
-	train, test = train_test_prop_split(data[1:], 0.2, -1)
+	train, test = train_test_prop_split(data[1:], 0.3, -1)
 	
 	# add headers
 	train.insert(0, data[0])

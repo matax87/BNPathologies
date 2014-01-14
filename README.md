@@ -3,6 +3,11 @@ BNPathologies
 
 Building a Bayesian model of leukemia pathologies.
 
+## Running the project
+
+1. Run `disc_fsel_script.py` to do the normalization and feature selection steps (*please note* that this may take few minutes). **Output**: `data/disc_fselected.csv`
+2. Run `split_script.py` to split proportionally (70 / 30) the dataset obtained in step (1) into a training and a test sets. **Output** `data/train.csv` and `data/test.csv`.
+
 ## Problem
 
 * Genes are responsible for protein synthesis in living cells.
@@ -27,6 +32,6 @@ Building a Bayesian model of leukemia pathologies.
 * Learn structure and parameters of the Bayesian network on the training set
 * Evaluate performance of the learned network on the test set.
 * Compare different networks:
-	1. hugin-lite structure learning (statistical-test based)
+	1. hugin-lite structure learning (constraint-test based)
 	2. b-course structure learning (score based)
 	3. naive bayes classifier (simple fixed structure)

@@ -6,6 +6,7 @@ def train_test_split(data, test_ratio):
 	training_size = int(size * (1 - test_ratio))
 	test_size = size - training_size
 	random.shuffle(data)
+	print size, training_size, test_size
 	return data[:training_size], data[training_size:]
 	
 def train_test_prop_split(data, test_ratio, column_index):

@@ -25,7 +25,7 @@ def read_csv(file_path, delimiter=',', skip_lines=[]):
 			data.append([float(v) if is_number(v) else v for v in line])
 	return data
 	
-def dic_write_csv(file_path, fieldnames, data, delimiter=','):
+def dict_write_csv(file_path, fieldnames, data, delimiter=','):
     with open(file_path, "w") as f:
     	writer = csv.DictWriter(f, delimiter = delimiter, fieldnames = fieldnames) 
     	writer.writeheader()

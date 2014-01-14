@@ -15,10 +15,6 @@ def select_features(data, classes, num_of_feature):
 	# choose a small subset of the best genes when sorted by info-gain
 	features.sort(key=lambda t: t[1], reverse=True)
 	
-	for i in range(len(features)):
-		gene, ig, threshold = features[i]
-		print i+1, gene, threshold, ig
-	
 	del features[num_of_feature:]
 	return features
 
